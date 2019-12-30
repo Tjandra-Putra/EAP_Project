@@ -1,0 +1,200 @@
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V6\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\EAP_Supplier_Votech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\itextsharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\itextsharp.pdfa.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\EAP Project V11\EAP Project\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\obj\Debug\EAP_Supplier_Votech.pdb

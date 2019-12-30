@@ -1,0 +1,66 @@
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\ApplicationInsights.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\csc.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\vbc.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\VBCSCompiler.exe
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.dll.config
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.pdb
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Web.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.ApplicationInsights.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Web.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.ApplicationInsights.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.csprojResolveAssemblyReference.cache
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.dll
+c:\users\tjandra putra\documents\visual studio 2015\Projects\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\ApplicationInsights.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\csc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\vbc.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.dll.config
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\EAP_Company_FixTech.pdb
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Web.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.Web.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.csprojResolveAssemblyReference.cache
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.dll
+C:\Users\Tjandra Putra\Desktop\EAP Project\Company\EAP_Company_FixTech\EAP_Company_FixTech\obj\Debug\EAP_Company_FixTech.pdb
