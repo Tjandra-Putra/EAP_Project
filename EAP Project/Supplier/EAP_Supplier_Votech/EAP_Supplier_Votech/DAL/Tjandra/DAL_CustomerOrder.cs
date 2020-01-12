@@ -160,7 +160,35 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             programData = new DataSet();
 
             sql = new StringBuilder();
-            sql.AppendLine("SELECT * FROM CustomerOrder");
+            sql.AppendLine("SELECT * FROM CustomerOrder WHERE CO_Archive=0");
+
+            try
+            {
+                da = new SqlDataAdapter(sql.ToString(), myConnect);
+                da.Fill(programData);
+            }
+            catch (Exception ex)
+            {
+                errMsg = ex.Message;
+            }
+            finally
+            {
+                myConnect.Close();
+            }
+
+            return programData;
+        }
+
+        public DataSet GetAll_CustomerOrdersArchived()
+        {
+            StringBuilder sql;
+            SqlDataAdapter da;
+            DataSet programData;
+
+            programData = new DataSet();
+
+            sql = new StringBuilder();
+            sql.AppendLine("SELECT * FROM CustomerOrder WHERE CO_Archive=1");
 
             try
             {
@@ -201,12 +229,35 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             return result;
         }
 
-        // Delete
+        // Archive
         public int deletePurchaseOrder(int CO_ID)
         {
             int result = 0;
 
-            string query = "DELETE CustomerOrder WHERE CO_ID=@CO_ID";
+            //string query = "DELETE CustomerOrder WHERE CO_ID=@CO_ID";
+
+            string query = "UPDATE CustomerOrder SET CO_Archive=1 WHERE CO_ID=@CO_ID ";
+
+            myConnect.Open();
+
+            SqlCommand cmd = new SqlCommand(query, myConnect);
+            cmd.Parameters.AddWithValue("@CO_ID", CO_ID);
+
+            result = cmd.ExecuteNonQuery();
+
+            myConnect.Close();
+
+            return result;
+        }
+
+        // Restore
+        public int restoreCustomerOrder(int CO_ID)
+        {
+            int result = 0;
+
+            //string query = "DELETE CustomerOrder WHERE CO_ID=@CO_ID";
+
+            string query = "UPDATE CustomerOrder SET CO_Archive=0 WHERE CO_ID=@CO_ID ";
 
             myConnect.Open();
 
@@ -223,7 +274,7 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
         // Search Filter
         public DataTable SearchPurchaseOrder(string name)
         {
-            string queryStr = "SELECT * FROM CustomerOrder WHERE CO_CompanyName LIKE '%' +@name+ '%' ";
+            string queryStr = "SELECT * FROM CustomerOrder WHERE CO_CompanyName LIKE '%' +@name+ '%' AND CO_Archive=0 ";
 
             myConnect.Open();
 

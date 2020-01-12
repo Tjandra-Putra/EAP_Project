@@ -47,12 +47,14 @@
                     <asp:TextBox ID="tb_SearchName" runat="server" CssClass="form-control mr-sm-2 ml-2" placeholder="Enter company name" required="required"></asp:TextBox>
                     <asp:Button ID="btn_SearchName" runat="server" Text="Search" CssClass="btn btn-success my-2 my-sm-0  d-inline mr-2" OnClick="btn_SearchName_Click" />
 
-                    <asp:DropDownList ID="ddl_Status" runat="server" CssClass="btn btn-dark dropdown-toggle" AutoPostBack="true" OnSelectedIndexChanged="ddl_Status_SelectedIndexChanged" >
+                    <asp:DropDownList ID="ddl_Status" runat="server" CssClass="btn btn-dark dropdown-toggle" AutoPostBack="true" OnSelectedIndexChanged="ddl_Status_SelectedIndexChanged">
                         <asp:ListItem>Pending</asp:ListItem>
-                        <asp:ListItem>Delivered</asp:ListItem>                   
+                        <asp:ListItem>Delivered</asp:ListItem>
                     </asp:DropDownList>
 
-                    <asp:Button ID="btn_Refresh" runat="server" Text="Refresh" CssClass="btn btn-warning my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Refresh_Click" />
+                    <asp:Button ID="btn_Archived" runat="server" Text="Archived" CssClass="btn btn-warning my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Archived_Click" />
+                    <asp:Button ID="btn_Refresh" runat="server" Text="Refresh" CssClass="btn btn-primary my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Refresh_Click" />
+
                 </div>
 
                 <asp:GridView ID="gv_CustomerOrder" runat="server" AutoGenerateColumns="False" DataKeyNames="CO_ID" CssClass="table table-striped table-light table-condensed table-responsive border-0" AllowPaging="True" OnPageIndexChanging="gv_CustomerOrder_PageIndexChanging" PageSize="5" OnRowDeleting="gv_CustomerOrder_RowDeleting" OnRowCancelingEdit="gv_CustomerOrder_RowCancelingEdit" OnRowEditing="gv_CustomerOrder_RowEditing" OnRowUpdating="gv_CustomerOrder_RowUpdating" OnSelectedIndexChanged="gv_CustomerOrder_SelectedIndexChanged">
@@ -81,10 +83,10 @@
                         </asp:BoundField>
 
                         <asp:CommandField SelectText="View" ShowSelectButton="True" />
-                        <asp:CommandField ShowEditButton="True" EditText="Comment" />
+                        <asp:CommandField ShowEditButton="True" EditText="Comment" DeleteText="Archive" />
                         <asp:TemplateField ShowHeader="False">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" OnClientClick="return confirm('Are you sure to reject?')"></asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Delete" Text="Archive" OnClientClick="return confirm('Are you sure to archive?')"></asp:LinkButton>
                             </ItemTemplate>
                         </asp:TemplateField>
 

@@ -40,6 +40,15 @@ namespace EAP_Supplier_Votech.Web.Admin {
         protected global::System.Web.UI.WebControls.DropDownList ddl_Status;
         
         /// <summary>
+        /// btn_Archived control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Archived;
+        
+        /// <summary>
         /// btn_Refresh control.
         /// </summary>
         /// <remarks>

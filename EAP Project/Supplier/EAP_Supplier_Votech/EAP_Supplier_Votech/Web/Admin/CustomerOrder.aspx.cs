@@ -46,7 +46,7 @@ namespace EAP_Supplier_Votech.Web.Admin
             BindGridView();
         }
 
-        protected void gv_CustomerOrder_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        protected void gv_CustomerOrder_RowDeleting(object sender, GridViewDeleteEventArgs e) //Archive
         {
             // =========== Delete =============
             int selectedRow = e.RowIndex;
@@ -126,6 +126,11 @@ namespace EAP_Supplier_Votech.Web.Admin
             dt = obj.filterCustomerOrder_DDL(ddl_Status.SelectedItem.Text);
             gv_CustomerOrder.DataSource = dt;
             gv_CustomerOrder.DataBind();
+        }
+
+        protected void btn_Archived_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CustomerOrder_Archived.aspx");
         }
     }
 }

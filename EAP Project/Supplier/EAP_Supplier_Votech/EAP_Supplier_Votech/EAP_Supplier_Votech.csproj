@@ -125,6 +125,7 @@
     <Content Include="Static\Master\Admin\Admin_Master.css" />
     <Content Include="Web.config" />
     <Content Include="Web\Admin\CustomerOrder.aspx" />
+    <Content Include="Web\Admin\CustomerOrder_Archived.aspx" />
     <Content Include="Web\Admin\CustomerOrder_ViewMore.aspx" />
     <Content Include="Web\Admin\Dashboard\Dashboard.aspx" />
     <Content Include="Web\Admin\PurchaseOrder.aspx" />
@@ -150,6 +151,13 @@
     </Compile>
     <Compile Include="Web\Admin\CustomerOrder.aspx.designer.cs">
       <DependentUpon>CustomerOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\CustomerOrder_Archived.aspx.cs">
+      <DependentUpon>CustomerOrder_Archived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\CustomerOrder_Archived.aspx.designer.cs">
+      <DependentUpon>CustomerOrder_Archived.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Admin\CustomerOrder_ViewMore.aspx.cs">
       <DependentUpon>CustomerOrder_ViewMore.aspx</DependentUpon>
