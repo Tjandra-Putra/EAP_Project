@@ -52,7 +52,5 @@ Features :
 
 5) Archive system, Restoration system
 
-6) Implemented custom email system
-
 ```
 
