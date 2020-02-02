@@ -19,12 +19,29 @@ public partial class static_Master_Admin_Admin_Master_Page : System.Web.UI.Maste
 
     protected void lbtn_Order_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/Web/Admin/PurchaseOrder.aspx");
+        Response.Redirect("~/Web/Admin/Tjandra/PurchaseOrder.aspx");
 
     }
 
     protected void lbtn_CustomerOrder_Click(object sender, EventArgs e)
     {
-        Response.Redirect("/Web/Admin/CustomerOrder.aspx");
+        Response.Redirect("/Web/Admin/Tjandra/CustomerOrder.aspx");
     }
+
+    protected void lbtn_Invoice_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("/Web/Admin/Lester/SendingInvoice.aspx");
+    }
+    protected void lbtn_PaymentStatus_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("/Web/Admin/Lester/ListOfInvoice.aspx");
+    }
+
+    protected void btnDeliveryOrder_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Web/Admin/Nelson/DeliveryOrder.aspx");
+
+    }
+
+
 }

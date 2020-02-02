@@ -4,6 +4,8 @@
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd2" />
+      <xsd:import schemaLocation="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/EAP_Supplier_Votech.DAL.Nelson" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IWs_Supplier_Votech_insertPurchaseOrder_InputMessage">
@@ -12,16 +14,92 @@
   <wsdl:message name="IWs_Supplier_Votech_insertPurchaseOrder_OutputMessage">
     <wsdl:part name="parameters" element="tns:insertPurchaseOrderResponse" />
   </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAllCustomerOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomerOrders" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAllCustomerOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomerOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAllOrderItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllOrderItem" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAllOrderItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllOrderItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_getAllDeliveryOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDeliveryOrders" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_getAllDeliveryOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllDeliveryOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_getDeliveryOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:getDeliveryOrder" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_getDeliveryOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getDeliveryOrderResponse" />
+  </wsdl:message>
   <wsdl:portType name="IWs_Supplier_Votech">
     <wsdl:operation name="insertPurchaseOrder">
       <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrder" message="tns:IWs_Supplier_Votech_insertPurchaseOrder_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrderResponse" message="tns:IWs_Supplier_Votech_insertPurchaseOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomerOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders" message="tns:IWs_Supplier_Votech_GetAllCustomerOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrdersResponse" message="tns:IWs_Supplier_Votech_GetAllCustomerOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrderItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem" message="tns:IWs_Supplier_Votech_GetAllOrderItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItemResponse" message="tns:IWs_Supplier_Votech_GetAllOrderItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllDeliveryOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders" message="tns:IWs_Supplier_Votech_getAllDeliveryOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrdersResponse" message="tns:IWs_Supplier_Votech_getAllDeliveryOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeliveryOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrder" message="tns:IWs_Supplier_Votech_getDeliveryOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrderResponse" message="tns:IWs_Supplier_Votech_getDeliveryOrder_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IWs_Supplier_Votech" type="tns:IWs_Supplier_Votech">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="insertPurchaseOrder">
       <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomerOrders">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrderItem">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllDeliveryOrders">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeliveryOrder">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrder" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

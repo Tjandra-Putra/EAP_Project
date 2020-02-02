@@ -50,8 +50,25 @@
                             </div>
                         </div>
 
+                        
+                        <asp:LinkButton ID="lbtn_Invoice" runat="server" CssClass="nav-link  text-dark px-3" CausesValidation="false" OnClick="lbtn_Invoice_Click">Sending Invoice</asp:LinkButton>
+
+                        <asp:LinkButton ID="lbtn_PaymentStatus" runat="server" CssClass="nav-link  text-dark px-3" CausesValidation="false" OnClick="lbtn_PaymentStatus_Click">Payment Status</asp:LinkButton>
+
+                         <div class="nav-item dropdown text-dark">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Delivery Order
+                            </a>
+                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                                <asp:LinkButton ID="btnDeliveryOrder" runat="server" CssClass="nav-link  text-dark px-3 dropdown-item" CausesValidation="false" OnClick="btnDeliveryOrder_Click">Delivery Order</asp:LinkButton>
+                            </div>
+                        </div>
 
 
+
+
+
+
+                        <!--=================================-->
 
                         <div class="mr-auto"></div>
                         <div class="navbar-nav mr-5 ">

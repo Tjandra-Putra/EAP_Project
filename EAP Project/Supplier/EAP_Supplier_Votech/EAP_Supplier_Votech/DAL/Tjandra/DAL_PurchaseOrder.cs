@@ -149,12 +149,32 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             return result;
         }
 
-        // Delete
+        // Delete REJECT 
         public int deletePurchaseOrder(int PO_ID)
         {
             int result = 0;
 
-            string query = "DELETE PurchaseOrder WHERE PO_ID=@PO_ID";
+            //string query = "DELETE PurchaseOrder WHERE PO_ID=@PO_ID";
+            string query = "UPDATE PurchaseOrder SET PO_ProcessStatus='Rejected' WHERE PO_ID=@PO_ID";
+
+            myConnect.Open();
+
+            SqlCommand cmd = new SqlCommand(query, myConnect);
+            cmd.Parameters.AddWithValue("@PO_ID", PO_ID);
+
+            result = cmd.ExecuteNonQuery();
+
+            myConnect.Close();
+
+            return result;
+        }
+
+        // Delete ACCEPT 
+        public int acceptPurchaseOrderStatus(int PO_ID)
+        {
+            int result = 0;
+
+            string query = "UPDATE PurchaseOrder SET PO_ProcessStatus='Accepted' WHERE PO_ID=@PO_ID";
 
             myConnect.Open();
 
@@ -238,6 +258,37 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
 
             return dt;
         }
+
+        // DDL process filter
+        public DataTable filter_ProcessStatus(string status)
+        {
+            string queryStr;
+
+            if (status == "Process Status")
+            {
+                queryStr = "SELECT * FROM PurchaseOrder";
+            }
+            else
+            {
+                queryStr = "SELECT * FROM PurchaseOrder WHERE PO_ProcessStatus = '" + status + "'";
+            }
+
+            SqlCommand cmd = new SqlCommand(queryStr, myConnect);
+            myConnect.Open();
+            DataTable dt = new DataTable();
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+
+            myConnect.Close();
+
+            return dt;
+        }
+
+
+
+
+
+
 
         // Retrieve row by ID
         public List<DAL_PurchaseOrder> GetSinglePurchaseOrders(string ID)

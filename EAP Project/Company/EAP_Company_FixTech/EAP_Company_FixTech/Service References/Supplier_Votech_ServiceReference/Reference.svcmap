@@ -22,10 +22,12 @@
     <MetadataSource Address="http://localhost:50235/Ws_Supplier_Votech.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Ws_Supplier_Votech.xsd" MetadataType="Schema" ID="61241477-10d5-417b-a30d-aa44a53ab0f4" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd0" />
-    <MetadataFile FileName="Ws_Supplier_Votech.disco" MetadataType="Disco" ID="3db76f8e-e504-44ce-996b-e08e31d48e71" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?disco" />
-    <MetadataFile FileName="Ws_Supplier_Votech.wsdl" MetadataType="Wsdl" ID="2bf15325-c472-4995-8b9f-ddbf7d608217" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?wsdl" />
     <MetadataFile FileName="Ws_Supplier_Votech1.xsd" MetadataType="Schema" ID="12b0e6c5-3a67-4a37-8cf1-cf91974357e5" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd1" />
+    <MetadataFile FileName="Ws_Supplier_Votech.xsd" MetadataType="Schema" ID="61241477-10d5-417b-a30d-aa44a53ab0f4" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd0" />
+    <MetadataFile FileName="Ws_Supplier_Votech3.xsd" MetadataType="Schema" ID="73bf57ae-b6c7-4a14-8f81-7161ac306e97" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd3" />
+    <MetadataFile FileName="Ws_Supplier_Votech2.xsd" MetadataType="Schema" ID="b014e35f-d4eb-4a61-8568-849c5f165bf9" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd2" />
+    <MetadataFile FileName="Ws_Supplier_Votech.wsdl" MetadataType="Wsdl" ID="2bf15325-c472-4995-8b9f-ddbf7d608217" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?wsdl" />
+    <MetadataFile FileName="Ws_Supplier_Votech.disco" MetadataType="Disco" ID="3db76f8e-e504-44ce-996b-e08e31d48e71" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

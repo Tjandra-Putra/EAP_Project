@@ -124,17 +124,32 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Static\Master\Admin\Admin_Master.css" />
     <Content Include="Web.config" />
-    <Content Include="Web\Admin\CustomerOrder.aspx" />
-    <Content Include="Web\Admin\CustomerOrder_Archived.aspx" />
-    <Content Include="Web\Admin\CustomerOrder_ViewMore.aspx" />
+    <Content Include="Web\Admin\Nelson\DeliveryOrder.aspx" />
+    <Content Include="Web\Admin\Nelson\DeliveryOrder_Summary.aspx" />
+    <Content Include="Web\Admin\Nelson\DeliveryOrder_View.aspx" />
+    <Content Include="Web\Admin\Tjandra\CompletedOrder.aspx" />
+    <Content Include="Web\Admin\Tjandra\CustomerOrder.aspx" />
+    <Content Include="Web\Admin\Tjandra\CustomerOrder_Archived.aspx" />
+    <Content Include="Web\Admin\Tjandra\CustomerOrder_ViewMore.aspx" />
     <Content Include="Web\Admin\Dashboard\Dashboard.aspx" />
-    <Content Include="Web\Admin\PurchaseOrder.aspx" />
-    <Content Include="Web\Admin\CustomerOrder_Summary.aspx" />
-    <Content Include="Web\Admin\PurchaseOrder_ViewMore.aspx" />
+    <Content Include="Web\Admin\Lester\ListOfInvoice.aspx" />
+    <Content Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx" />
+    <Content Include="Web\Admin\Lester\SendingInvoice.aspx" />
+    <Content Include="Web\Admin\Tjandra\PurchaseOrder.aspx" />
+    <Content Include="Web\Admin\Tjandra\CustomerOrder_Summary.aspx" />
+    <Content Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx" />
     <Content Include="Ws_Supplier_Votech.svc" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Lester\BLL_Invoice.cs" />
+    <Compile Include="BLL\Lester\BLL_Payment.cs" />
+    <Compile Include="BLL\Nelson\BLL_SupplierNelson.cs" />
     <Compile Include="BLL\Tjandra\BLL_Supplier_Class.cs" />
+    <Compile Include="DAL\Lester\DAL_Connection.cs" />
+    <Compile Include="DAL\Lester\DAL_PaymentStatus.cs" />
+    <Compile Include="DAL\Lester\DAL_SendingInvoice.cs" />
+    <Compile Include="DAL\Nelson\DAL_Connection.cs" />
+    <Compile Include="DAL\Nelson\DAL_DeliveryOrder.cs" />
     <Compile Include="DAL\Tjandra\DAL_Connection.cs" />
     <Compile Include="DAL\Tjandra\DAL_CustomerOrder.cs" />
     <Compile Include="DAL\Tjandra\DAL_OrderItem.cs" />
@@ -145,50 +160,99 @@
       <DependentUpon>Admin_Master_Page.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder.aspx.cs">
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder.aspx.cs">
+      <DependentUpon>DeliveryOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder.aspx.designer.cs">
+      <DependentUpon>DeliveryOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder_Summary.aspx.cs">
+      <DependentUpon>DeliveryOrder_Summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder_Summary.aspx.designer.cs">
+      <DependentUpon>DeliveryOrder_Summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder_View.aspx.cs">
+      <DependentUpon>DeliveryOrder_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrder_View.aspx.designer.cs">
+      <DependentUpon>DeliveryOrder_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\CompletedOrder.aspx.cs">
+      <DependentUpon>CompletedOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\CompletedOrder.aspx.designer.cs">
+      <DependentUpon>CompletedOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder.aspx.cs">
       <DependentUpon>CustomerOrder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder.aspx.designer.cs">
       <DependentUpon>CustomerOrder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_Archived.aspx.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_Archived.aspx.cs">
       <DependentUpon>CustomerOrder_Archived.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_Archived.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_Archived.aspx.designer.cs">
       <DependentUpon>CustomerOrder_Archived.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_ViewMore.aspx.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_ViewMore.aspx.cs">
       <DependentUpon>CustomerOrder_ViewMore.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_ViewMore.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_ViewMore.aspx.designer.cs">
       <DependentUpon>CustomerOrder_ViewMore.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Admin\Dashboard\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\PurchaseOrder.aspx.cs">
+    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.cs">
+      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.designer.cs">
+      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.cs">
+      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.designer.cs">
+      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.cs">
+      <DependentUpon>SendingInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.designer.cs">
+      <DependentUpon>SendingInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.cs">
       <DependentUpon>PurchaseOrder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\PurchaseOrder.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.designer.cs">
       <DependentUpon>PurchaseOrder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_Summary.aspx.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_Summary.aspx.cs">
       <DependentUpon>CustomerOrder_Summary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\CustomerOrder_Summary.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\CustomerOrder_Summary.aspx.designer.cs">
       <DependentUpon>CustomerOrder_Summary.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Web\Admin\PurchaseOrder_ViewMore.aspx.cs">
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx.cs">
       <DependentUpon>PurchaseOrder_ViewMore.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\PurchaseOrder_ViewMore.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx.designer.cs">
       <DependentUpon>PurchaseOrder_ViewMore.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ws_Supplier_Votech.svc.cs">
@@ -196,12 +260,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\Lester\" />
-    <Folder Include="BLL\Nelson\" />
     <Folder Include="BLL\Pingwen\" />
-    <Folder Include="DAL\Lester\" />
-    <Folder Include="DAL\Nelson\" />
     <Folder Include="DAL\Pingwen\" />
+    <Folder Include="Web\Admin\Pingwen\" />
     <Folder Include="Web\Home\" />
   </ItemGroup>
   <PropertyGroup>

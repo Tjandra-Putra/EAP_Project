@@ -9,7 +9,214 @@
 //------------------------------------------------------------------------------
 
 namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="DAL_DeliveryOrder", Namespace="http://schemas.datacontract.org/2004/07/EAP_Supplier_Votech.DAL.Nelson")]
+    [System.SerializableAttribute()]
+    public partial class DAL_DeliveryOrder : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CO_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_CompanyAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_CompanyContactField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_CompanyEmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_CompanyNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_DateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_RemarksField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DO_StatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string OI_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ProdIDField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CO_ID {
+            get {
+                return this.CO_IDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CO_IDField, value) != true)) {
+                    this.CO_IDField = value;
+                    this.RaisePropertyChanged("CO_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_CompanyAddress {
+            get {
+                return this.DO_CompanyAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_CompanyAddressField, value) != true)) {
+                    this.DO_CompanyAddressField = value;
+                    this.RaisePropertyChanged("DO_CompanyAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_CompanyContact {
+            get {
+                return this.DO_CompanyContactField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_CompanyContactField, value) != true)) {
+                    this.DO_CompanyContactField = value;
+                    this.RaisePropertyChanged("DO_CompanyContact");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_CompanyEmail {
+            get {
+                return this.DO_CompanyEmailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_CompanyEmailField, value) != true)) {
+                    this.DO_CompanyEmailField = value;
+                    this.RaisePropertyChanged("DO_CompanyEmail");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_CompanyName {
+            get {
+                return this.DO_CompanyNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_CompanyNameField, value) != true)) {
+                    this.DO_CompanyNameField = value;
+                    this.RaisePropertyChanged("DO_CompanyName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_Date {
+            get {
+                return this.DO_DateField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_DateField, value) != true)) {
+                    this.DO_DateField = value;
+                    this.RaisePropertyChanged("DO_Date");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_ID {
+            get {
+                return this.DO_IDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_IDField, value) != true)) {
+                    this.DO_IDField = value;
+                    this.RaisePropertyChanged("DO_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_Remarks {
+            get {
+                return this.DO_RemarksField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_RemarksField, value) != true)) {
+                    this.DO_RemarksField = value;
+                    this.RaisePropertyChanged("DO_Remarks");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DO_Status {
+            get {
+                return this.DO_StatusField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DO_StatusField, value) != true)) {
+                    this.DO_StatusField = value;
+                    this.RaisePropertyChanged("DO_Status");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string OI_ID {
+            get {
+                return this.OI_IDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.OI_IDField, value) != true)) {
+                    this.OI_IDField = value;
+                    this.RaisePropertyChanged("OI_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ProdID {
+            get {
+                return this.ProdIDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ProdIDField, value) != true)) {
+                    this.ProdIDField = value;
+                    this.RaisePropertyChanged("ProdID");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Supplier_Votech_ServiceReference.IWs_Supplier_Votech")]
@@ -20,6 +227,30 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrder", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrderResponse")]
         System.Threading.Tasks.Task<int> insertPurchaseOrderAsync(string name, string email, string contact, string address, string date);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrdersResponse")]
+        System.Data.DataSet GetAllCustomerOrders();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrdersResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> GetAllCustomerOrdersAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItemResponse")]
+        System.Data.DataSet GetAllOrderItem(string CO_ID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItemResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> GetAllOrderItemAsync(string CO_ID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrdersResponse")]
+        System.Data.DataSet getAllDeliveryOrders();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrdersResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> getAllDeliveryOrdersAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrder", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrderResponse")]
+        EAP_Company_FixTech.Supplier_Votech_ServiceReference.DAL_DeliveryOrder[] getDeliveryOrder(string DO_ID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrder", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/getDeliveryOrderResponse")]
+        System.Threading.Tasks.Task<EAP_Company_FixTech.Supplier_Votech_ServiceReference.DAL_DeliveryOrder[]> getDeliveryOrderAsync(string DO_ID);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -55,6 +286,38 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
         
         public System.Threading.Tasks.Task<int> insertPurchaseOrderAsync(string name, string email, string contact, string address, string date) {
             return base.Channel.insertPurchaseOrderAsync(name, email, contact, address, date);
+        }
+        
+        public System.Data.DataSet GetAllCustomerOrders() {
+            return base.Channel.GetAllCustomerOrders();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> GetAllCustomerOrdersAsync() {
+            return base.Channel.GetAllCustomerOrdersAsync();
+        }
+        
+        public System.Data.DataSet GetAllOrderItem(string CO_ID) {
+            return base.Channel.GetAllOrderItem(CO_ID);
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> GetAllOrderItemAsync(string CO_ID) {
+            return base.Channel.GetAllOrderItemAsync(CO_ID);
+        }
+        
+        public System.Data.DataSet getAllDeliveryOrders() {
+            return base.Channel.getAllDeliveryOrders();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> getAllDeliveryOrdersAsync() {
+            return base.Channel.getAllDeliveryOrdersAsync();
+        }
+        
+        public EAP_Company_FixTech.Supplier_Votech_ServiceReference.DAL_DeliveryOrder[] getDeliveryOrder(string DO_ID) {
+            return base.Channel.getDeliveryOrder(DO_ID);
+        }
+        
+        public System.Threading.Tasks.Task<EAP_Company_FixTech.Supplier_Votech_ServiceReference.DAL_DeliveryOrder[]> getDeliveryOrderAsync(string DO_ID) {
+            return base.Channel.getDeliveryOrderAsync(DO_ID);
         }
     }
 }

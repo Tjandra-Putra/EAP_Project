@@ -101,6 +101,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="Service References\Supplier_Votech_ServiceReference\EAP_Company_FixTech.Supplier_Votech_ServiceReference.DAL_DeliveryOrder.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech.disco" />
     <None Include="Service References\Supplier_Votech_ServiceReference\configuration91.svcinfo" />
     <None Include="Service References\Supplier_Votech_ServiceReference\configuration.svcinfo" />
@@ -110,12 +114,24 @@
     </None>
     <Content Include="Static\Master\Admin\Admin_Master_Page.master" />
     <Content Include="Static\Master\Client\Client_Master_Page.master" />
+    <Content Include="Web\Admin\Lester\ListOfSupplierInvoice.aspx" />
+    <Content Include="Web\Admin\Lester\ListOfSupplierViewMore.aspx" />
+    <Content Include="Web\Admin\Lester\PayingToSupplier.aspx" />
+    <Content Include="Web\Admin\Nelson\DeliveryOrderList.aspx" />
+    <Content Include="Web\Admin\Nelson\GetDeliveryOrder.aspx" />
+    <Content Include="Web\Admin\Tjandra\PurchaseOrder.aspx" />
     <Content Include="Ws_Company_FixTech.svc" />
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech.wsdl" />
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech3.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Web.Debug.config">
@@ -149,12 +165,19 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web\Admin\Dashboard\Dashboard.aspx" />
-    <Content Include="Web\Admin\Order.aspx" />
+    <Content Include="Web\Admin\Tjandra\Order.aspx" />
     <Content Include="Web\Home\Index.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\Tjandra\BLL_Supplier_Class.cs" />
-    <Compile Include="DAL\Tjandra\DAL_Supplier_Class.cs" />
+    <Compile Include="BLL\Lester\BLLPayment.cs" />
+    <Compile Include="BLL\Lester\BLL_Supplier_Votech.cs" />
+    <Compile Include="BLL\Nelson\BLL_SupplierNelson.cs" />
+    <Compile Include="BLL\Tjandra\BLL_PurchaseOrder.cs" />
+    <Compile Include="DAL\Lester\DAL_Access_Supplier_Votech.cs" />
+    <Compile Include="DAL\Lester\DAL_Connection.cs" />
+    <Compile Include="DAL\Nelson\DAL_SupplierNelson.cs" />
+    <Compile Include="DAL\Tjandra\DAL_Connection.cs" />
+    <Compile Include="DAL\Tjandra\DAL_PurchaseOrder.cs" />
     <Compile Include="IWs_Company_FixTech.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\Supplier_Votech_ServiceReference\Reference.cs">
@@ -174,12 +197,54 @@
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\Order.aspx.cs">
+    <Compile Include="Web\Admin\Lester\ListOfSupplierInvoice.aspx.cs">
+      <DependentUpon>ListOfSupplierInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfSupplierInvoice.aspx.designer.cs">
+      <DependentUpon>ListOfSupplierInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfSupplierViewMore.aspx.cs">
+      <DependentUpon>ListOfSupplierViewMore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfSupplierViewMore.aspx.designer.cs">
+      <DependentUpon>ListOfSupplierViewMore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\PayingToSupplier.aspx.cs">
+      <DependentUpon>PayingToSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\PayingToSupplier.aspx.designer.cs">
+      <DependentUpon>PayingToSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrderList.aspx.cs">
+      <DependentUpon>DeliveryOrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\DeliveryOrderList.aspx.designer.cs">
+      <DependentUpon>DeliveryOrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\GetDeliveryOrder.aspx.cs">
+      <DependentUpon>GetDeliveryOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Nelson\GetDeliveryOrder.aspx.designer.cs">
+      <DependentUpon>GetDeliveryOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\Order.aspx.cs">
       <DependentUpon>Order.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Web\Admin\Order.aspx.designer.cs">
+    <Compile Include="Web\Admin\Tjandra\Order.aspx.designer.cs">
       <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.designer.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Home\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -190,13 +255,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\Lester\" />
-    <Folder Include="BLL\Nelson\" />
     <Folder Include="BLL\Pingwen\" />
-    <Folder Include="DAL\Lester\" />
-    <Folder Include="DAL\Nelson\" />
     <Folder Include="DAL\Pingwen\" />
     <Folder Include="Static\Home\" />
+    <Folder Include="Web\Admin\Pingwen\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

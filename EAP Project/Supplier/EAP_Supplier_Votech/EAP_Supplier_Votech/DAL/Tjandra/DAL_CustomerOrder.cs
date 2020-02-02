@@ -15,7 +15,7 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
 
         SqlConnection myConnect = DAL_Connection.GetConnection();
 
-        private string _CO_ID, _CO_CompanyName, _CO_CompanyEmail, _CO_CompanyContact, _CO_CompanyAddress, _CO_Date, _CO_AdminComment, _CO_Status, _ProdID, _OI_ID, _PO_ID;
+        private string _CO_ID, _CO_CompanyName, _CO_CompanyEmail, _CO_CompanyContact, _CO_CompanyAddress, _CO_Date, _CO_AdminComment, _CO_Archive, _ProdID, _OI_ID, _PO_ID;
 
         public DAL_CustomerOrder()
         {
@@ -26,13 +26,13 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             this._CO_CompanyAddress = null;
             this._CO_Date = null;
             this._CO_AdminComment = null;
-            this._CO_Status = null;
+            this._CO_Archive = null;
             this._ProdID = null;
             this._OI_ID = null;
             this._PO_ID = null;
         }
 
-        public DAL_CustomerOrder(string aCO_ID, string aCO_CompanyName, string aCO_CompanyEmail, string aCO_CompanyContact, string aCO_CompanyAddress, string aCO_Date, string aCO_AdminComment,string aCO_Status, string aProdID, string aOI_ID, string aPO_ID)
+        public DAL_CustomerOrder(string aCO_ID, string aCO_CompanyName, string aCO_CompanyEmail, string aCO_CompanyContact, string aCO_CompanyAddress, string aCO_Date, string aCO_AdminComment,string aCO_Archive, string aProdID, string aOI_ID, string aPO_ID)
         {
             this._CO_ID = aCO_ID;
             this._CO_CompanyName = aCO_CompanyName;
@@ -41,7 +41,7 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             this._CO_CompanyAddress = aCO_CompanyAddress;
             this._CO_Date = aCO_Date;
             this._CO_AdminComment = aCO_AdminComment;
-            this._CO_Status = aCO_Status;
+            this._CO_Archive = aCO_Archive;
             this._ProdID = aProdID;
             this._OI_ID = aOI_ID;
             this._PO_ID = aPO_ID;
@@ -89,10 +89,10 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             set { _CO_AdminComment = value; }
         }
 
-        public string CO_Status
+        public string CO_Archive
         {
-            get { return _CO_Status; }
-            set { _CO_Status = value; }
+            get { return _CO_Archive; }
+            set { _CO_Archive = value; }
         }
 
         public string ProdID
@@ -135,13 +135,13 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
                 string CO_CompanyAddress = dr["CO_CompanyAddress"].ToString();
                 string CO_Date = dr["CO_Date"].ToString();
                 string CO_AdminComment = dr["CO_AdminComment"].ToString();
-                string CO_Status = dr["CO_Status"].ToString();
+                string CO_Archive = dr["CO_Archive"].ToString();
                 string ProdID = dr["ProdID"].ToString();
                 string OI_ID = dr["OI_ID"].ToString();
                 string PO_ID = dr["PO_ID"].ToString();
 
 
-                DAL_CustomerOrder obj = new DAL_CustomerOrder(CO_ID, CO_CompanyName, CO_CompanyEmail, CO_CompanyContact, CO_CompanyAddress, CO_Date, CO_AdminComment, CO_Status, ProdID, OI_ID, PO_ID);
+                DAL_CustomerOrder obj = new DAL_CustomerOrder(CO_ID, CO_CompanyName, CO_CompanyEmail, CO_CompanyContact, CO_CompanyAddress, CO_Date, CO_AdminComment, CO_Archive, ProdID, OI_ID, PO_ID);
 
                 CO_List.Add(obj);
             }
@@ -178,6 +178,35 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
 
             return programData;
         }
+
+        public DataSet GetCompleted_CustomerOrders()
+        {
+            StringBuilder sql;
+            SqlDataAdapter da;
+            DataSet programData;
+
+            programData = new DataSet();
+
+            sql = new StringBuilder();
+            sql.AppendLine("SELECT * FROM CustomerOrder WHERE CO_DeliveryStatus='Delivered' AND CO_PaymentStatus='Paid'");
+
+            try
+            {
+                da = new SqlDataAdapter(sql.ToString(), myConnect);
+                da.Fill(programData);
+            }
+            catch (Exception ex)
+            {
+                errMsg = ex.Message;
+            }
+            finally
+            {
+                myConnect.Close();
+            }
+
+            return programData;
+        }
+
 
         public DataSet GetAll_CustomerOrdersArchived()
         {
@@ -288,18 +317,59 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             return dt;
         }
 
+        // Search completed orders
+        public DataTable SearchCompletedOrders(string name)
+        {
+            string queryStr = "SELECT * FROM CustomerOrder WHERE CO_CompanyName LIKE '%' +@name+ '%' AND CO_Archive=0 AND CO_DeliveryStatus='Delivered' AND CO_PaymentStatus='Paid'";
+
+            myConnect.Open();
+
+            SqlCommand cmd = new SqlCommand(queryStr, myConnect);
+            cmd.Parameters.AddWithValue("@name", name);
+
+            DataTable dt = new DataTable();
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+
+            return dt;
+        }
+
         // Drop down list Filter
         public DataTable filterCustomerOrder_DDL(string status)
         {
             string queryStr;
 
-            if (status == "All")
+            if (status == "Delivery Status")
             {
                 queryStr = "SELECT * FROM CustomerOrder";
             }
             else
             {
-                queryStr = "SELECT * FROM CustomerOrder WHERE CO_Status = '" + status +"'";
+                queryStr = "SELECT * FROM CustomerOrder WHERE CO_DeliveryStatus = '" + status +"'";
+            }
+
+            SqlCommand cmd = new SqlCommand(queryStr, myConnect);
+            myConnect.Open();
+            DataTable dt = new DataTable();
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+
+            myConnect.Close();
+
+            return dt;
+        }
+
+        public DataTable filterCO_PaymentStatus(string status)
+        {
+            string queryStr;
+
+            if (status == "Payment Status")
+            {
+                queryStr = "SELECT * FROM CustomerOrder";
+            }
+            else
+            {
+                queryStr = "SELECT * FROM CustomerOrder WHERE CO_PaymentStatus = '" + status + "'";
             }
 
             SqlCommand cmd = new SqlCommand(queryStr, myConnect);
