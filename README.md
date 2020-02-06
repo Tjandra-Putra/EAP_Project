@@ -4,14 +4,15 @@ This project consist on web service for Business to Business (B2B) transactions 
 > ## Supplier side
 
 ```
-Pages completed by Tjandra :
-- [x] Index.aspx
-- [x] CustomerOrder.aspx
-- [x] CustomerOrder_ViewMore.aspx
-- [x] CustomerOrder_Summary.aspx
-- [x] CustomerOrder_Archived.aspx
-- [x] PurchaseOrder.aspx
-- [x] PurchaseOrder_ViewMore.aspx
+Pages completed by Tjandra : Effective & Efficience User Interface (UI)
+- [✓] Index.aspx
+- [✓] CustomerOrder.aspx
+- [✓] CustomerOrder_ViewMore.aspx
+- [✓] CustomerOrder_Summary.aspx
+- [✓] CustomerOrder_Archived.aspx
+- [✓] CompletedOrder.aspx
+- [✓] PurchaseOrder.aspx
+- [✓] PurchaseOrder_ViewMore.aspx
 ```
 
 ### Theme / Master Page
@@ -48,7 +49,9 @@ Features :
 
 4) Export customer order to PDF and download
 
-5) Archive system, Restoration system
+5) Export customer order to excel and download for monthly report purpose
+
+6) Archive system, Restoration system
 
 ```
 
