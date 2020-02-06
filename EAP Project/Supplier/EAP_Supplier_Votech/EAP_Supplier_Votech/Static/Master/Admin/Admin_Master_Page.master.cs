@@ -12,10 +12,10 @@ public partial class static_Master_Admin_Admin_Master_Page : System.Web.UI.Maste
 
     }
 
-    protected void lbtn_Dashboard_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/Web/Admin/Dashboard/Dashboard.aspx");
-    }
+    //protected void lbtn_Dashboard_Click(object sender, EventArgs e)
+    //{
+    //    Response.Redirect("~/Web/Admin/Dashboard/Dashboard.aspx");
+    //}
 
     protected void lbtn_Order_Click(object sender, EventArgs e)
     {

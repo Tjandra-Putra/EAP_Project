@@ -44,10 +44,10 @@
 
             <div class="container">
                 <div class="mb-3 form-inline py-2 shadow bg-light">
-                    <asp:TextBox ID="tb_SearchName" runat="server" CssClass="form-control mr-sm-2 ml-2" placeholder="Enter company name" CausesValidation="false"></asp:TextBox>
-                    <asp:Button ID="btn_SearchName" runat="server" Text="Search" CssClass="btn btn-success my-2 my-sm-0  d-inline mr-2" OnClick="btn_SearchName_Click" />
+                    <asp:TextBox ID="tb_SearchName" runat="server" CssClass="form-control mr-sm-2 ml-3" placeholder="Enter company name" CausesValidation="false"></asp:TextBox>
+                    <asp:Button ID="btn_SearchName" runat="server" Text="Search" CssClass="btn btn-success my-2 my-sm-0  d-inline mr-1" OnClick="btn_SearchName_Click" />
 
-                    <asp:DropDownList ID="ddl_Status" runat="server" CssClass="btn btn-dark dropdown-toggle mr-2" AutoPostBack="true" OnSelectedIndexChanged="ddl_Status_SelectedIndexChanged">
+                    <asp:DropDownList ID="ddl_Status" runat="server" CssClass="btn btn-dark dropdown-toggle mr-1" AutoPostBack="true" OnSelectedIndexChanged="ddl_Status_SelectedIndexChanged">
                         <asp:ListItem>Pending</asp:ListItem>
                         <asp:ListItem>Delivered</asp:ListItem>
                     </asp:DropDownList>
@@ -57,11 +57,17 @@
                         <asp:ListItem>Paid</asp:ListItem>
                     </asp:DropDownList>
 
-                    <asp:Button ID="btn_Archived" runat="server" Text="Archived" CssClass="btn btn-warning my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Archived_Click" />
 
-                    <asp:Button ID="btn_CompletedOrder" runat="server" Text="Completed" CssClass="btn btn-danger my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_CompletedOrder_Click" />
+                    <asp:DropDownList ID="ddl_Descending" runat="server" CssClass="btn dropdown-toggle ml-1" style="background-color:darkorange;color:white;" AutoPostBack="True" OnSelectedIndexChanged="ddl_Descending_SelectedIndexChanged">
+                        <asp:ListItem>Date Filter</asp:ListItem>
+                        <asp:ListItem>Latest</asp:ListItem>
+                    </asp:DropDownList>
 
-                    <asp:Button ID="btn_Refresh" runat="server" Text="Refresh" CssClass="btn btn-primary my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Refresh_Click" />
+                    <asp:Button ID="btn_Archived" runat="server" Text="Archived" CssClass="btn btn-warning my-2 my-sm-0 d-inline ml-1 float-right" OnClick="btn_Archived_Click" />
+
+                    <asp:Button ID="btn_CompletedOrder" runat="server" Text="Completed" CssClass="btn btn-danger my-2 my-sm-0 d-inline ml-1 float-right" OnClick="btn_CompletedOrder_Click" />
+
+                    <asp:Button ID="btn_Refresh" runat="server" Text="Refresh" CssClass="btn btn-primary my-2 my-sm-0 d-inline ml-1 float-right" OnClick="btn_Refresh_Click" />
 
                 </div>
 

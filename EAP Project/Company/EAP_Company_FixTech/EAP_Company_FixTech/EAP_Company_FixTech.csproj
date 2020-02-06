@@ -120,6 +120,7 @@
     <Content Include="Web\Admin\Nelson\DeliveryOrderList.aspx" />
     <Content Include="Web\Admin\Nelson\GetDeliveryOrder.aspx" />
     <Content Include="Web\Admin\Tjandra\PurchaseOrder.aspx" />
+    <Content Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx" />
     <Content Include="Ws_Company_FixTech.svc" />
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech.wsdl" />
     <None Include="Service References\Supplier_Votech_ServiceReference\Ws_Supplier_Votech.xsd">
@@ -169,12 +170,17 @@
     <Content Include="Web\Home\Index.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\Lester\BLLPayment.cs" />
+    <Compile Include="BLL\Lester\BLL_Payment.cs" />
     <Compile Include="BLL\Lester\BLL_Supplier_Votech.cs" />
     <Compile Include="BLL\Nelson\BLL_SupplierNelson.cs" />
+    <Compile Include="BLL\Tjandra\BLL_Inventory.cs" />
+    <Compile Include="BLL\Tjandra\BLL_OrderItem.cs" />
     <Compile Include="BLL\Tjandra\BLL_PurchaseOrder.cs" />
     <Compile Include="DAL\Lester\DAL_Access_Supplier_Votech.cs" />
     <Compile Include="DAL\Lester\DAL_Connection.cs" />
+    <Compile Include="DAL\Lester\DAL_Payment.cs" />
+    <Compile Include="DAL\Tjandra\DAL_Inventory.cs" />
+    <Compile Include="DAL\Tjandra\DAL_OrderItem.cs" />
     <Compile Include="DAL\Nelson\DAL_SupplierNelson.cs" />
     <Compile Include="DAL\Tjandra\DAL_Connection.cs" />
     <Compile Include="DAL\Tjandra\DAL_PurchaseOrder.cs" />
@@ -245,6 +251,13 @@
     </Compile>
     <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.designer.cs">
       <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx.cs">
+      <DependentUpon>PurchaseOrder_ViewMore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx.designer.cs">
+      <DependentUpon>PurchaseOrder_ViewMore.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Home\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

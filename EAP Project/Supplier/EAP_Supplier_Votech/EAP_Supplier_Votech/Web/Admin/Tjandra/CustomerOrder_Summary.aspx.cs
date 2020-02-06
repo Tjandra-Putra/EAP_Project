@@ -44,11 +44,16 @@ namespace EAP_Supplier_Votech.Web.Admin
             // =============== Gridview =================
 
             DAL_OrderItem item = new DAL_OrderItem();
-            DataSet ds;
+            DataTable ds;
             ds = item.GetAll_OrderItem();
             gv_OrderItem.DataSource = ds;
             gv_OrderItem.DataBind();
 
+
+            gv_OrderItem.FooterRow.Cells[2].Text = "Total Amount";
+            gv_OrderItem.FooterRow.Cells[3].Text = ds.Compute("SUM(OI_Price)", "").ToString();
+
+            lbl_Total.Text = ds.Compute("SUM(OI_Price)", "").ToString();
         }
 
         //protected void btn_Export_Click(object sender, EventArgs e)

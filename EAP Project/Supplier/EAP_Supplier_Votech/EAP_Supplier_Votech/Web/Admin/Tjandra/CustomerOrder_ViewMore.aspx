@@ -119,15 +119,15 @@
                     <div class="col-md-6 form-group">
                          <p class="font-weight-bold">Order Items</p>
 
-                        <asp:GridView ID="gv_OrderItem" runat="server" AutoGenerateColumns="False" DataKeyNames="OI_ID"  CssClass="table table-striped table-light table-condensed table-responsive border-0" AllowPaging="True" OnPageIndexChanging="gv_OrderItem_PageIndexChanging" PageSize="2">
+                        <asp:GridView ID="gv_OrderItem" runat="server" AutoGenerateColumns="False" DataKeyNames="OI_ID"  CssClass="table table-striped table-light table-condensed table-responsive border-0" AllowPaging="True" OnPageIndexChanging="gv_OrderItem_PageIndexChanging" PageSize="2" ShowFooter="True">
                             <Columns>
                                 <asp:BoundField DataField="OI_ID" HeaderText="OI_ID" />
                                 <asp:BoundField DataField="OI_Name" HeaderText="Item Name" />
                                 <asp:BoundField DataField="OI_Desc" HeaderText="Item Desc" />
                                 <asp:BoundField DataField="OI_Price" HeaderText="Price" />
-                                <asp:BoundField DataField="OI_Qty" HeaderText="Qty" />
+                   <%--             <asp:BoundField DataField="OI_Qty" HeaderText="Qty" />
                                 <asp:BoundField DataField="ProdID" HeaderText="ProdID" />
-                                <asp:BoundField DataField="OI_TotalAmount" HeaderText="Total Amount" />
+                                <asp:BoundField DataField="OI_TotalAmount" HeaderText="Total Amount" />--%>
                             </Columns>
                         </asp:GridView>     
                     </div>

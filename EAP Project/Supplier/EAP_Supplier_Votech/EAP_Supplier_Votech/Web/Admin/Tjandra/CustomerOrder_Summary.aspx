@@ -21,7 +21,7 @@
 
     /* GLOBAL */
     :root {
-        --OpenSans: 'Open Sans', sans-serif;
+        --OpenSans: 'Open Sans', sans-serif;    
         --Cinzel: 'Cinzel', serif;
     }
 
@@ -124,15 +124,15 @@
                 <div class="row mt-4">
                     <div class="col-md-12">
 
-                        <asp:GridView ID="gv_OrderItem" runat="server" DataKeyNames="OI_ID" CssClass="table table-striped table-light table-condensed table-responsive border-0" AutoGenerateColumns="False">
+                        <asp:GridView ID="gv_OrderItem" runat="server" DataKeyNames="OI_ID" CssClass="table table-striped table-light table-condensed table-responsive border-0" AutoGenerateColumns="False" ShowFooter="False">
                             <Columns>
                                 <asp:BoundField DataField="OI_ID" HeaderText="OI_ID" />
                                 <asp:BoundField DataField="OI_Name" HeaderText="Item Name" />
                                 <asp:BoundField DataField="OI_Desc" HeaderText="Item Desc" />
-                                <asp:BoundField DataField="OI_Price" HeaderText="Price" />
-                                <asp:BoundField DataField="OI_Qty" HeaderText="Qty" />
+                                <asp:BoundField DataField="OI_Price" HeaderText="Price" DataFormatString="{0:C}" />
+          <%--                      <asp:BoundField DataField="OI_Qty" HeaderText="Qty" />
                                 <asp:BoundField DataField="ProdID" HeaderText="ProdID" />
-                                <asp:BoundField DataField="OI_TotalAmount" HeaderText="Total Amount" />
+                                <asp:BoundField DataField="OI_TotalAmount" HeaderText="Total Amount" />--%>
                             </Columns>
                         </asp:GridView>
 
@@ -142,13 +142,13 @@
                 <div class="row mt-4">
                     <div class="col-md-12">
                         <div class="float-right">
-                            <p><span class="font-weight-bold">Sub Total</span> : $5670,78</p>
+                         <%--   <p><span class="font-weight-bold">Sub Total</span> : <asp:Label ID="lbl_Total" runat="server" Text="Label"></asp:Label></p>
                             <p><span class="font-weight-bold">Tax</span> : $59</p>
                             <p><span class="font-weight-bold">Shipping</span> : -</p>
-                            <p><span class="font-weight-bold">Other</span> : -</p>
+                            <p><span class="font-weight-bold">Other</span> : -</p>--%>
 
                             <hr class="bg-dark">
-                            <p><span class="font-weight-bold">Total</span> : $5670,78</p>
+                            <p><span class="font-weight-bold">Total</span> : $ <asp:Label ID="lbl_Total" runat="server" Text="Label"></asp:Label></p>
                             <hr class="bg-dark">
                         </div>
                     </div>

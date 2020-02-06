@@ -49,15 +49,6 @@ namespace EAP_Company_FixTech.Web.Admin {
         protected global::System.Web.UI.WebControls.TextBox tb_CompanyAddress;
         
         /// <summary>
-        /// btn_Back control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Back;
-        
-        /// <summary>
         /// btn_CreateOrder control.
         /// </summary>
         /// <remarks>
@@ -65,5 +56,14 @@ namespace EAP_Company_FixTech.Web.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_CreateOrder;
+        
+        /// <summary>
+        /// gv_OrderItem control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gv_OrderItem;
     }
 }

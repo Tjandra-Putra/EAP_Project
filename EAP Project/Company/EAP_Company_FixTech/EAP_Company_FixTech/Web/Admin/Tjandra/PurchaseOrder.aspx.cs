@@ -12,7 +12,6 @@ namespace EAP_Company_FixTech.Web.Admin
 {
     public partial class PurchaseOrder : System.Web.UI.Page
     {
-
         DAL_PurchaseOrder obj = new DAL_PurchaseOrder();
 
         protected void Page_Load(object sender, EventArgs e)
@@ -25,10 +24,12 @@ namespace EAP_Company_FixTech.Web.Admin
 
         private void BindGridView()
         {
-            DataSet ds;
+            DataTable ds;
             ds = obj.GetAll_PurchaseOrders();
             gv_PurchaseOrder.DataSource = ds;
             gv_PurchaseOrder.DataBind();
+
+
         }
 
         protected void gv_PurchaseOrder_RowUpdating(object sender, GridViewUpdateEventArgs e)
@@ -90,6 +91,12 @@ namespace EAP_Company_FixTech.Web.Admin
             Response.Redirect("PurchaseOrder.aspx");
         }
 
-     
+        protected void gv_PurchaseOrder_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            GridViewRow row = gv_PurchaseOrder.SelectedRow;
+            string PO_ID = row.Cells[0].Text;
+
+            Response.Redirect("~/Web/Admin/Tjandra/PurchaseOrder_ViewMore.aspx?PO_ID=" + PO_ID);
+        }
     }
 }

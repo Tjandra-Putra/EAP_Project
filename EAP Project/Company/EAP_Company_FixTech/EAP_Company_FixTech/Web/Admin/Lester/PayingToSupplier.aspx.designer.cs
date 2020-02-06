@@ -13,48 +13,84 @@ namespace EAP_Company_FixTech.Web.Admin {
     public partial class PayingToSupplier {
         
         /// <summary>
-        /// txtSupplierID control.
+        /// tb_InvoiceNum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSupplierID;
+        protected global::System.Web.UI.WebControls.TextBox tb_InvoiceNum;
         
         /// <summary>
-        /// txtSupplierName control.
+        /// tb_PaymentDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSupplierName;
+        protected global::System.Web.UI.WebControls.TextBox tb_PaymentDate;
         
         /// <summary>
-        /// txtSupplierAddress control.
+        /// CalPaymentDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSupplierAddress;
+        protected global::System.Web.UI.WebControls.Calendar CalPaymentDate;
         
         /// <summary>
-        /// txtSupplierNum control.
+        /// tb_ChequeNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSupplierNum;
+        protected global::System.Web.UI.WebControls.TextBox tb_ChequeNo;
         
         /// <summary>
-        /// btnPay control.
+        /// tb_PaymentAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPay;
+        protected global::System.Web.UI.WebControls.TextBox tb_PaymentAmount;
+        
+        /// <summary>
+        /// tb_Payee control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Payee;
+        
+        /// <summary>
+        /// tb_Memo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Memo;
+        
+        /// <summary>
+        /// btn_Back control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Back;
+        
+        /// <summary>
+        /// btn_Pay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Pay;
     }
 }

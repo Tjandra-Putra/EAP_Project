@@ -28,5 +28,11 @@ namespace EAP_Company_FixTech.BLL.Lester
             datasetCustomerOrderViewMore = dataLayerPS.GetAllOrderItem(CO_ID);
             return datasetCustomerOrderViewMore;
         }
+
+        public int PaySupplier(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum)
+        {
+            DAL_Access_Supplier_Votech obj = new DAL_Access_Supplier_Votech();
+            return obj.PaySupplier(PaymentDate, ChequeNo, PaymentAmount, Payee, Memo, InvoiceNum);
+        }
     }
 }

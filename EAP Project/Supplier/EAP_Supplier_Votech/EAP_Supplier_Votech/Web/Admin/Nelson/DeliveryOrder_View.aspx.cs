@@ -35,7 +35,7 @@ namespace EAP_Supplier_Votech.Web.Admin
 
 
             DAL_OrderItem oi = new DAL_OrderItem();
-            DataSet ds = oi.GetAll_OrderItem();
+            DataTable ds = oi.GetAll_OrderItem();
             gvDeliveryOrderItems.DataSource = ds;
             gvDeliveryOrderItems.DataBind();
         }

@@ -40,6 +40,15 @@ namespace EAP_Supplier_Votech.Web {
         protected global::System.Web.UI.WebControls.DropDownList ddl_ProcessStatus;
         
         /// <summary>
+        /// ddl_Descending control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Descending;
+        
+        /// <summary>
         /// btn_Refresh control.
         /// </summary>
         /// <remarks>

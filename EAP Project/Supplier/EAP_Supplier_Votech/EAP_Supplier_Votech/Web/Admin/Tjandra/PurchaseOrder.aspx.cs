@@ -21,6 +21,8 @@ namespace EAP_Supplier_Votech.Web
             if (Page.IsPostBack == false)
             {
                 BindGridView();
+
+
             }
 
             if (!Page.IsPostBack)
@@ -38,8 +40,8 @@ namespace EAP_Supplier_Votech.Web
             gv_PurchaseOrder.DataSource = ds;
             gv_PurchaseOrder.DataBind();
 
- 
         }
+
 
         protected void gv_PurchaseOrder_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
@@ -67,7 +69,7 @@ namespace EAP_Supplier_Votech.Web
 
             Response.Redirect("PurchaseOrder.aspx");
 
-          
+
 
         }
 
@@ -78,6 +80,13 @@ namespace EAP_Supplier_Votech.Web
 
             GridViewRow row = (GridViewRow)gv_PurchaseOrder.Rows[selectedRow];
             TextBox comment = (TextBox)row.FindControl("tb_AdminComment");
+
+            //TextBox styling = (TextBox)row.FindControl("tb_ProcessStatus");
+
+            //if (styling.Text == "Accepted")
+            //{
+            //    styling.Attributes.Add("style", "color:green;");
+            //}
 
             BindGridView();
 
@@ -148,6 +157,32 @@ namespace EAP_Supplier_Votech.Web
             dt = obj.filter_ProcessStatus(ddl_ProcessStatus.SelectedItem.Text);
             gv_PurchaseOrder.DataSource = dt;
             gv_PurchaseOrder.DataBind();
+        }
+
+        //protected void btn_Descending_Click(object sender, EventArgs e)
+        //{
+        //    DataSet ds = new DataSet();
+        //    ds = obj.filterDescending();
+
+        //    gv_PurchaseOrder.DataSource = ds;
+        //    gv_PurchaseOrder.DataBind();
+        //}
+
+        protected void ddl_Descending_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataSet ds = new DataSet();
+            var obj = new DAL_PurchaseOrder();
+
+            string getValue = ddl_Descending.SelectedItem.Value;
+
+            if (getValue == "Latest")
+            {
+                ds = obj.filterDescending();
+                gv_PurchaseOrder.DataSource = ds;
+                gv_PurchaseOrder.DataBind();
+            }
+
+
         }
     }
 }

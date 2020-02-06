@@ -149,5 +149,25 @@ namespace EAP_Supplier_Votech.Web.Admin
         {
             Response.Redirect("CustomerOrder_Archived.aspx");
         }
+
+        protected void ddl_Descending_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataSet ds = new DataSet();
+            var obj = new DAL_CustomerOrder();
+
+            string getValue = ddl_Descending.SelectedItem.Value;
+
+            if (getValue == "Latest")
+            {
+                ds = obj.filterDescending();
+                gv_CustomerOrder.DataSource = ds;
+                gv_CustomerOrder.DataBind();
+            }
+
+            else
+            {
+                Response.Redirect("CustomerOrder.aspx");
+            }
+        }
     }
 }

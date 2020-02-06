@@ -25,6 +25,18 @@ namespace EAP_Supplier_Votech
             return bizLayerInsertPO.insertPurchaseOrder(name, email, contact, address, date);
         }
 
+        public int createOrderItems(string ProdName, string ProdDesc, string ProdPrice)
+        {
+            BLL_Supplier_Class bizLayerCreate = new BLL_Supplier_Class();
+            return bizLayerCreate.createOrderItems(ProdName, ProdDesc, ProdPrice);
+        }
+
+        public DataSet GetAll_Inventory()
+        {
+            BLL_Supplier_Class obj = new BLL_Supplier_Class();
+            return obj.GetAll_Inventory();
+        }
+
         //Lester
         public DataSet GetAllCustomerOrders()
         {
@@ -40,6 +52,12 @@ namespace EAP_Supplier_Votech
             return dataLayerPS.GetAllOrderItem(CO_ID);
         }
 
+        public int PaySupplier(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum)
+        {
+            BLL_PaymentDetails obj = new BLL_PaymentDetails();
+            return obj.PaySupplier(PaymentDate, ChequeNo, PaymentAmount, Payee, Memo, InvoiceNum);
+        }
+
         //Nelson
         public List<DAL_DeliveryOrder> getDeliveryOrder(string DO_ID)
         {
@@ -52,12 +70,6 @@ namespace EAP_Supplier_Votech
             BLL_SupplierNelson bizLayergetDO = new BLL_SupplierNelson();
             return bizLayergetDO.getAllDeliveryOrders();
         }
-
-
-
-
-
-
 
 
     }

@@ -14,6 +14,18 @@
   <wsdl:message name="IWs_Supplier_Votech_insertPurchaseOrder_OutputMessage">
     <wsdl:part name="parameters" element="tns:insertPurchaseOrderResponse" />
   </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_createOrderItems_InputMessage">
+    <wsdl:part name="parameters" element="tns:createOrderItems" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_createOrderItems_OutputMessage">
+    <wsdl:part name="parameters" element="tns:createOrderItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAll_Inventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAll_Inventory" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_GetAll_Inventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAll_InventoryResponse" />
+  </wsdl:message>
   <wsdl:message name="IWs_Supplier_Votech_GetAllCustomerOrders_InputMessage">
     <wsdl:part name="parameters" element="tns:GetAllCustomerOrders" />
   </wsdl:message>
@@ -25,6 +37,12 @@
   </wsdl:message>
   <wsdl:message name="IWs_Supplier_Votech_GetAllOrderItem_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetAllOrderItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_PaySupplier_InputMessage">
+    <wsdl:part name="parameters" element="tns:PaySupplier" />
+  </wsdl:message>
+  <wsdl:message name="IWs_Supplier_Votech_PaySupplier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PaySupplierResponse" />
   </wsdl:message>
   <wsdl:message name="IWs_Supplier_Votech_getAllDeliveryOrders_InputMessage">
     <wsdl:part name="parameters" element="tns:getAllDeliveryOrders" />
@@ -43,6 +61,14 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrder" message="tns:IWs_Supplier_Votech_insertPurchaseOrder_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrderResponse" message="tns:IWs_Supplier_Votech_insertPurchaseOrder_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="createOrderItems">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/createOrderItems" message="tns:IWs_Supplier_Votech_createOrderItems_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/createOrderItemsResponse" message="tns:IWs_Supplier_Votech_createOrderItems_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll_Inventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAll_Inventory" message="tns:IWs_Supplier_Votech_GetAll_Inventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAll_InventoryResponse" message="tns:IWs_Supplier_Votech_GetAll_Inventory_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="GetAllCustomerOrders">
       <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders" message="tns:IWs_Supplier_Votech_GetAllCustomerOrders_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrdersResponse" message="tns:IWs_Supplier_Votech_GetAllCustomerOrders_OutputMessage" />
@@ -50,6 +76,10 @@
     <wsdl:operation name="GetAllOrderItem">
       <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem" message="tns:IWs_Supplier_Votech_GetAllOrderItem_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItemResponse" message="tns:IWs_Supplier_Votech_GetAllOrderItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PaySupplier">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/PaySupplier" message="tns:IWs_Supplier_Votech_PaySupplier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/PaySupplierResponse" message="tns:IWs_Supplier_Votech_PaySupplier_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="getAllDeliveryOrders">
       <wsdl:input wsaw:Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders" message="tns:IWs_Supplier_Votech_getAllDeliveryOrders_InputMessage" />
@@ -71,6 +101,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="createOrderItems">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/createOrderItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll_Inventory">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/GetAll_Inventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetAllCustomerOrders">
       <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders" style="document" />
       <wsdl:input>
@@ -82,6 +130,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetAllOrderItem">
       <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaySupplier">
+      <soap:operation soapAction="http://tempuri.org/IWs_Supplier_Votech/PaySupplier" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

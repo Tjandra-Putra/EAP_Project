@@ -124,6 +124,13 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Static\Master\Admin\Admin_Master.css" />
     <Content Include="Web.config" />
+    <Content Include="Web\Admin\Lester\CreateInvoice.aspx" />
+    <Content Include="Web\Admin\Lester\InvoiceCreated.aspx" />
+    <Content Include="Web\Admin\Lester\InvoiceViewDetails.aspx" />
+    <Content Include="Web\Admin\Lester\ListOfInvoice.aspx" />
+    <Content Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx" />
+    <Content Include="Web\Admin\Lester\PaymentDetails.aspx" />
+    <Content Include="Web\Admin\Lester\SendingInvoice.aspx" />
     <Content Include="Web\Admin\Nelson\DeliveryOrder.aspx" />
     <Content Include="Web\Admin\Nelson\DeliveryOrder_Summary.aspx" />
     <Content Include="Web\Admin\Nelson\DeliveryOrder_View.aspx" />
@@ -132,26 +139,30 @@
     <Content Include="Web\Admin\Tjandra\CustomerOrder_Archived.aspx" />
     <Content Include="Web\Admin\Tjandra\CustomerOrder_ViewMore.aspx" />
     <Content Include="Web\Admin\Dashboard\Dashboard.aspx" />
-    <Content Include="Web\Admin\Lester\ListOfInvoice.aspx" />
-    <Content Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx" />
-    <Content Include="Web\Admin\Lester\SendingInvoice.aspx" />
     <Content Include="Web\Admin\Tjandra\PurchaseOrder.aspx" />
     <Content Include="Web\Admin\Tjandra\CustomerOrder_Summary.aspx" />
     <Content Include="Web\Admin\Tjandra\PurchaseOrder_ViewMore.aspx" />
     <Content Include="Ws_Supplier_Votech.svc" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Lester\BLL_CreateInvoice.cs" />
     <Compile Include="BLL\Lester\BLL_Invoice.cs" />
+    <Compile Include="BLL\Lester\BLL_InvoiceViewMore.cs" />
     <Compile Include="BLL\Lester\BLL_Payment.cs" />
+    <Compile Include="BLL\Lester\BLL_PaymentDetails.cs" />
     <Compile Include="BLL\Nelson\BLL_SupplierNelson.cs" />
     <Compile Include="BLL\Tjandra\BLL_Supplier_Class.cs" />
     <Compile Include="DAL\Lester\DAL_Connection.cs" />
+    <Compile Include="DAL\Lester\DAL_CreateInvoice.cs" />
+    <Compile Include="DAL\Lester\DAL_InvoiceViewDetails.cs" />
+    <Compile Include="DAL\Lester\DAL_PaymentDetails.cs" />
     <Compile Include="DAL\Lester\DAL_PaymentStatus.cs" />
     <Compile Include="DAL\Lester\DAL_SendingInvoice.cs" />
     <Compile Include="DAL\Nelson\DAL_Connection.cs" />
     <Compile Include="DAL\Nelson\DAL_DeliveryOrder.cs" />
     <Compile Include="DAL\Tjandra\DAL_Connection.cs" />
     <Compile Include="DAL\Tjandra\DAL_CustomerOrder.cs" />
+    <Compile Include="DAL\Tjandra\DAL_Inventory.cs" />
     <Compile Include="DAL\Tjandra\DAL_OrderItem.cs" />
     <Compile Include="DAL\Tjandra\DAL_PurchaseOrder.cs" />
     <Compile Include="IWs_Supplier_Votech.cs" />
@@ -159,6 +170,55 @@
     <Compile Include="Static\Master\Admin\Admin_Master_Page.master.cs">
       <DependentUpon>Admin_Master_Page.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\CreateInvoice.aspx.cs">
+      <DependentUpon>CreateInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\CreateInvoice.aspx.designer.cs">
+      <DependentUpon>CreateInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\InvoiceCreated.aspx.cs">
+      <DependentUpon>InvoiceCreated.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\InvoiceCreated.aspx.designer.cs">
+      <DependentUpon>InvoiceCreated.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\InvoiceViewDetails.aspx.cs">
+      <DependentUpon>InvoiceViewDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\InvoiceViewDetails.aspx.designer.cs">
+      <DependentUpon>InvoiceViewDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.cs">
+      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.designer.cs">
+      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.cs">
+      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.designer.cs">
+      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\PaymentDetails.aspx.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\PaymentDetails.aspx.designer.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.cs">
+      <DependentUpon>SendingInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.designer.cs">
+      <DependentUpon>SendingInvoice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Admin\Nelson\DeliveryOrder.aspx.cs">
       <DependentUpon>DeliveryOrder.aspx</DependentUpon>
@@ -212,27 +272,6 @@
     <Compile Include="Web\Admin\Dashboard\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.cs">
-      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\ListOfInvoice.aspx.designer.cs">
-      <DependentUpon>ListOfInvoice.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.cs">
-      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\ListOfInvoiceViewMore.aspx.designer.cs">
-      <DependentUpon>ListOfInvoiceViewMore.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.cs">
-      <DependentUpon>SendingInvoice.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Web\Admin\Lester\SendingInvoice.aspx.designer.cs">
-      <DependentUpon>SendingInvoice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\Admin\Tjandra\PurchaseOrder.aspx.cs">
       <DependentUpon>PurchaseOrder.aspx</DependentUpon>

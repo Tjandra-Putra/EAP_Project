@@ -32,7 +32,7 @@
 
         <div class="title">
             <div class="container-fluid ">
-                <p class="display-4 text-center "><span class="text-success">View</span> Purchase Order</p>
+                <p class="display-4 text-center "><span class="text-success">All</span> Purchase Order</p>
             </div>
         </div>
 
@@ -42,7 +42,7 @@
         <div class="container-fluid mt-4 ">
             <div class="container">
 
-                <asp:GridView ID="gv_PurchaseOrder" runat="server" AutoGenerateColumns="False" DataKeyNames="PO_ID" CssClass="table shadow table-light border-0 table-condensed table-responsive table-hover mb-5" OnRowUpdating="gv_PurchaseOrder_RowUpdating" AllowPaging="True" OnRowDeleting="gv_PurchaseOrder_RowDeleting" OnRowEditing="gv_PurchaseOrder_RowEditing" OnRowCancelingEdit="gv_PurchaseOrder_RowCancelingEdit" PageSize="5">
+                <asp:GridView ID="gv_PurchaseOrder" runat="server" AutoGenerateColumns="False" DataKeyNames="PO_ID" CssClass="table shadow table-light border-0 table-condensed table-responsive table-hover mb-5" OnRowUpdating="gv_PurchaseOrder_RowUpdating" AllowPaging="True" OnRowDeleting="gv_PurchaseOrder_RowDeleting" OnRowEditing="gv_PurchaseOrder_RowEditing" OnRowCancelingEdit="gv_PurchaseOrder_RowCancelingEdit"  OnPageIndexChanging="gv_PurchaseOrder_PageIndexChanging" PageSize="5" OnSelectedIndexChanged="gv_PurchaseOrder_SelectedIndexChanged">
                     <HeaderStyle
                         BackColor="#606060"
                         Height="35"
@@ -57,10 +57,6 @@
                             <HeaderStyle Width="20%"></HeaderStyle>
                         </asp:BoundField>
 
-                        <asp:BoundField DataField="SupplierID" HeaderText="Supplier ID" ReadOnly="True">
-                            <HeaderStyle Width="5%"></HeaderStyle>
-                        </asp:BoundField>
-
                         <asp:TemplateField HeaderText="Note">
                             <EditItemTemplate>
                                 <asp:TextBox ID="tb_AdminComment" runat="server" Text='<%# Bind("PO_AdminComment") %>'></asp:TextBox>
@@ -71,8 +67,9 @@
                             <HeaderStyle Width="30%" />
                         </asp:TemplateField>
                         <asp:CommandField ShowEditButton="True" />
-                        <asp:CommandField ShowSelectButton="True" />
                         <asp:CommandField ShowDeleteButton="True" />
+
+                        <asp:CommandField SelectText="View" ShowSelectButton="True" />
 
                     </Columns>
                 </asp:GridView>

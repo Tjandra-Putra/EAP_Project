@@ -17,6 +17,7 @@ namespace EAP_Company_FixTech.DAL.Tjandra
 
         SqlConnection myConnect = DAL_Connection.GetConnection();
 
+        // WEB SERVICE
         public int insertPurchaseOrder(string name, string email, string contact, string address, string date)
         {
             Ws_Supplier_VotechClient VotechClient;
@@ -43,13 +44,13 @@ namespace EAP_Company_FixTech.DAL.Tjandra
         }
 
         // Retrieve purchase orders
-        public DataSet GetAll_PurchaseOrders()
+        public DataTable GetAll_PurchaseOrders()
         {
             StringBuilder sql;
             SqlDataAdapter da;
-            DataSet programData;
+            DataTable programData;
 
-            programData = new DataSet();
+            programData = new DataTable();
 
             sql = new StringBuilder();
             sql.AppendLine("SELECT * FROM PurchaseOrder");

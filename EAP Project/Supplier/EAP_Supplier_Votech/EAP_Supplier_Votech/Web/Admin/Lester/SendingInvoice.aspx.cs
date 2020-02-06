@@ -30,5 +30,21 @@ namespace EAP_Supplier_Votech.Web.Admin
             gvInvoice.DataSource = ds;
             gvInvoice.DataBind();
         }
+
+        protected void gvInvoice_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            GridViewRow gvr = (GridViewRow)((LinkButton)e.CommandSource).NamingContainer;
+
+            if (e.CommandName == "View Details")
+            {
+                int CO_ID = Convert.ToInt32(gvr.Cells[0].Text);
+                Response.Redirect("InvoiceViewDetails.aspx?CO_ID=" + CO_ID);
+            }
+            if (e.CommandName == "Generate Invoice")
+            {
+                //int InvoiceNum = Convert.ToInt32(gvr.Cells[1].Text);
+                Response.Redirect("CreateInvoice.aspx?CO_ID=" + gvr.Cells[0].Text);
+            }
+        }
     }
 }

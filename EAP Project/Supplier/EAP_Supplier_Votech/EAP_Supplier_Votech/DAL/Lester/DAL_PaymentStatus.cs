@@ -27,7 +27,7 @@ namespace EAP_Supplier_Votech.DAL.Lester
             customerorders = new DataSet();
 
             sql = new StringBuilder();
-            sql.AppendLine("SELECT C.CO_ID, C.CO_PaymentStatus, P.PO_CompanyName, P.PO_Date, P.PO_CompanyEmail,  P.PO_CompanyContact, I.InvoiceNum, I.InvoiceDate, I.InvoiceTotalAmt, I.InvoiceStatus FROM CustomerOrder C JOIN PurchaseOrder P ON C.PO_ID = P.PO_ID JOIN Invoice I ON I.CO_ID = C.CO_ID");
+            sql.AppendLine("SELECT C.CO_ID, C.CO_CompanyName, C.CO_Date, C.CO_CompanyEmail,  C.CO_CompanyContact, C.CO_PaymentStatus, I.InvoiceNum, I.InvoiceDate, I.InvoiceTotalAmt, I.InvoiceStatus FROM CustomerOrder C JOIN Invoice I ON I.CO_ID = C.CO_ID");
 
             da = new SqlDataAdapter(sql.ToString(), myconnect);
             da.Fill(customerorders);

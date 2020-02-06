@@ -317,6 +317,34 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             return dt;
         }
 
+        public DataSet filterDescending()
+        {
+            StringBuilder sql;
+            SqlDataAdapter da;
+            DataSet programData;
+
+            programData = new DataSet();
+
+            sql = new StringBuilder();
+            sql.AppendLine("SELECT * FROM CustomerOrder Order by CO_Date desc");
+
+            try
+            {
+                da = new SqlDataAdapter(sql.ToString(), myConnect);
+                da.Fill(programData);
+            }
+            catch (Exception ex)
+            {
+                errMsg = ex.Message;
+            }
+            finally
+            {
+                myConnect.Close();
+            }
+
+            return programData;
+        }
+
         // Search completed orders
         public DataTable SearchCompletedOrders(string name)
         {

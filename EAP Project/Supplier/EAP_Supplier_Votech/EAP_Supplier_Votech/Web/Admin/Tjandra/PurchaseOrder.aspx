@@ -42,15 +42,22 @@
 
             <div class="container">
                 <div class="mb-3 form-inline py-2 shadow">
-                    <asp:TextBox ID="tb_SearchName" runat="server" CssClass="form-control mr-sm-2 ml-2" placeholder="Enter company name" required="required"></asp:TextBox>
+                    <asp:TextBox ID="tb_SearchName" runat="server" CssClass="form-control mr-sm-2 ml-2" placeholder="Enter company name"  CausesValidation="false"></asp:TextBox>
                     <asp:Button ID="btn_SearchName" runat="server" Text="Search" CssClass="btn btn-success my-2 my-sm-0  d-inline" OnClick="btn_SearchName_Click" />
 
 
-                    <asp:DropDownList ID="ddl_ProcessStatus" runat="server" CssClass="btn btn-info dropdown-toggle ml-2" AutoPostBack="true" OnSelectedIndexChanged="ddl_ProcessStatus_SelectedIndexChanged" >
+                    <asp:DropDownList ID="ddl_ProcessStatus" runat="server" CssClass="btn btn-info dropdown-toggle ml-2" AutoPostBack="true" OnSelectedIndexChanged="ddl_ProcessStatus_SelectedIndexChanged">
+                        <asp:ListItem>Pending</asp:ListItem>
                         <asp:ListItem>Rejected</asp:ListItem>
                         <asp:ListItem>Accepted</asp:ListItem>
                     </asp:DropDownList>
 
+<%--                    <asp:button id="btn_descending" runat="server" text="oldest" cssclass="btn btn-danger my-2 my-sm-0  d-inline" onclick="btn_descending_click"  />--%>
+
+                    <asp:DropDownList ID="ddl_Descending" runat="server"  CssClass="btn btn-primary dropdown-toggle ml-2" OnSelectedIndexChanged="ddl_Descending_SelectedIndexChanged" AutoPostBack="True">
+                        <asp:ListItem>Date Filter</asp:ListItem>
+                        <asp:ListItem>Latest</asp:ListItem>
+                    </asp:DropDownList>
 
                     <asp:Button ID="btn_Refresh" runat="server" Text="Refresh" CssClass="btn btn-warning my-2 my-sm-0 d-inline ml-2 float-right" OnClick="btn_Refresh_Click" />
                 </div>
@@ -86,7 +93,7 @@
 
                             <HeaderStyle Width="30%"></HeaderStyle>
                         </asp:TemplateField>
-                        <asp:BoundField DataField="PO_ProcessStatus" HeaderText="Process Status" ReadOnly="True"/>
+                        <asp:BoundField DataField="PO_ProcessStatus" HeaderText="Process Status" ReadOnly="True" />
                         <asp:CommandField SelectText="View" ShowSelectButton="True" />
                         <asp:CommandField ShowEditButton="True" EditText="Comment" />
                         <asp:TemplateField ShowHeader="False">

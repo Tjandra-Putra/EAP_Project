@@ -128,6 +128,34 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
             return programData;
         }
 
+        public DataSet filterDescending()
+        {
+            StringBuilder sql;
+            SqlDataAdapter da;
+            DataSet programData;
+
+            programData = new DataSet();
+
+            sql = new StringBuilder();
+            sql.AppendLine("SELECT * FROM PurchaseOrder Order by PO_Date desc");
+
+            try
+            {
+                da = new SqlDataAdapter(sql.ToString(), myConnect);
+                da.Fill(programData);
+            }
+            catch (Exception ex)
+            {
+                errMsg = ex.Message;
+            }
+            finally
+            {
+                myConnect.Close();
+            }
+
+            return programData;
+        }
+
         // Update
         public int updatePurchaseOrder(int PO_ID, string Note)
         {
@@ -283,11 +311,6 @@ namespace EAP_Supplier_Votech.DAL.Tjandra
 
             return dt;
         }
-
-
-
-
-
 
 
         // Retrieve row by ID

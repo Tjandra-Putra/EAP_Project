@@ -228,6 +228,18 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrder", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/insertPurchaseOrderResponse")]
         System.Threading.Tasks.Task<int> insertPurchaseOrderAsync(string name, string email, string contact, string address, string date);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/createOrderItems", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/createOrderItemsResponse")]
+        int createOrderItems(string ProdName, string ProdDesc, string ProdPrice);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/createOrderItems", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/createOrderItemsResponse")]
+        System.Threading.Tasks.Task<int> createOrderItemsAsync(string ProdName, string ProdDesc, string ProdPrice);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAll_Inventory", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAll_InventoryResponse")]
+        System.Data.DataSet GetAll_Inventory();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAll_Inventory", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAll_InventoryResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> GetAll_InventoryAsync();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllCustomerOrdersResponse")]
         System.Data.DataSet GetAllCustomerOrders();
         
@@ -239,6 +251,12 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItem", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/GetAllOrderItemResponse")]
         System.Threading.Tasks.Task<System.Data.DataSet> GetAllOrderItemAsync(string CO_ID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/PaySupplier", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/PaySupplierResponse")]
+        int PaySupplier(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/PaySupplier", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/PaySupplierResponse")]
+        System.Threading.Tasks.Task<int> PaySupplierAsync(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrders", ReplyAction="http://tempuri.org/IWs_Supplier_Votech/getAllDeliveryOrdersResponse")]
         System.Data.DataSet getAllDeliveryOrders();
@@ -288,6 +306,22 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
             return base.Channel.insertPurchaseOrderAsync(name, email, contact, address, date);
         }
         
+        public int createOrderItems(string ProdName, string ProdDesc, string ProdPrice) {
+            return base.Channel.createOrderItems(ProdName, ProdDesc, ProdPrice);
+        }
+        
+        public System.Threading.Tasks.Task<int> createOrderItemsAsync(string ProdName, string ProdDesc, string ProdPrice) {
+            return base.Channel.createOrderItemsAsync(ProdName, ProdDesc, ProdPrice);
+        }
+        
+        public System.Data.DataSet GetAll_Inventory() {
+            return base.Channel.GetAll_Inventory();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> GetAll_InventoryAsync() {
+            return base.Channel.GetAll_InventoryAsync();
+        }
+        
         public System.Data.DataSet GetAllCustomerOrders() {
             return base.Channel.GetAllCustomerOrders();
         }
@@ -302,6 +336,14 @@ namespace EAP_Company_FixTech.Supplier_Votech_ServiceReference {
         
         public System.Threading.Tasks.Task<System.Data.DataSet> GetAllOrderItemAsync(string CO_ID) {
             return base.Channel.GetAllOrderItemAsync(CO_ID);
+        }
+        
+        public int PaySupplier(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum) {
+            return base.Channel.PaySupplier(PaymentDate, ChequeNo, PaymentAmount, Payee, Memo, InvoiceNum);
+        }
+        
+        public System.Threading.Tasks.Task<int> PaySupplierAsync(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum) {
+            return base.Channel.PaySupplierAsync(PaymentDate, ChequeNo, PaymentAmount, Payee, Memo, InvoiceNum);
         }
         
         public System.Data.DataSet getAllDeliveryOrders() {

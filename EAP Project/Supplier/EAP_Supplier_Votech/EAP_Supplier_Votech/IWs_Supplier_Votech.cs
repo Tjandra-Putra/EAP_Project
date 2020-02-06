@@ -20,12 +20,21 @@ namespace EAP_Supplier_Votech
         [OperationContract]
         int insertPurchaseOrder(string name, string email, string contact, string address, string date);
 
+        [OperationContract]
+        int createOrderItems(string ProdName, string ProdDesc, string ProdPrice);
+
+        [OperationContract]
+        DataSet GetAll_Inventory();
+
         //Lester 
         [OperationContract]
         DataSet GetAllCustomerOrders();
 
         [OperationContract]
         DataSet GetAllOrderItem(string CO_ID);
+
+        [OperationContract]
+        int PaySupplier(string PaymentDate, string ChequeNo, decimal PaymentAmount, string Payee, string Memo, int InvoiceNum);
 
         //Nelson
         [OperationContract]

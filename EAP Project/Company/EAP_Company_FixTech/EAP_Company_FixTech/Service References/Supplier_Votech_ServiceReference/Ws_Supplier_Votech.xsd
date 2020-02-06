@@ -19,6 +19,46 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="createOrderItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProdName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProdDesc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProdPrice" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="createOrderItemsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="createOrderItemsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAll_Inventory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAll_InventoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAll_InventoryResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="GetAllCustomerOrders">
     <xs:complexType>
       <xs:sequence />
@@ -66,6 +106,25 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PaySupplier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PaymentDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PaymentAmount" type="xs:decimal" />
+        <xs:element minOccurs="0" name="Payee" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Memo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InvoiceNum" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PaySupplierResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PaySupplierResult" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -57,44 +57,28 @@
 
                             <div class="row mt-3">
                                 <div class="col-md-12">
-                                    <asp:Button ID="btn_Back" runat="server" Text="Product Catalog" CssClass="btn btn-success float-left " />
+<%--                                    <asp:Button ID="btn_Back" runat="server" Text="Product Catalog" CssClass="btn btn-success float-left " OnClick="btn_Back_Click" />--%>
                                     <asp:Button ID="btn_CreateOrder" runat="server" Text="Create Order" CssClass="btn btn-warning float-right" OnClick="btn_CreateOrder_Click" />
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 form-group">
-                            <p class="font-weight-bold">Order Items</p>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <p class="font-weight-bold">Product Catalog</p>
+                            
+                        <asp:GridView ID="gv_OrderItem" runat="server" AutoGenerateColumns="False" DataKeyNames="ProdID" CssClass="table table-striped table-light table-condensed table-responsive border-0" AllowPaging="True" OnPageIndexChanging="gv_OrderItem_PageIndexChanging" PageSize="1" OnSelectedIndexChanged="gv_OrderItem_SelectedIndexChanged">
+                            <Columns>
+                <asp:BoundField DataField="ProdId" HeaderText="Product ID" />
+                <asp:BoundField DataField="ProdName" HeaderText="Name" />
+                <asp:BoundField DataField="ProdDesc" HeaderText="Description" />
+                <asp:BoundField DataField="ProdPrice" HeaderText="Price" />
+                                <asp:TemplateField ShowHeader="False">
+                                    <ItemTemplate>
+                                        <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Select" Text="Select" OnClientClick="return confirm('Confirm to purchase>');"></asp:LinkButton>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+            </Columns>
+                        </asp:GridView>
                         </div>
 
 
@@ -106,8 +90,8 @@
 
         
         <script > function alertMe() {
-            Swal .fire( 'Successful!', 'Order has been created!', 'success' );
-        }
+     Swal.fire('Successful!', 'Order has been created!', 'success');
+ }
 
         </script> 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9" > </script >

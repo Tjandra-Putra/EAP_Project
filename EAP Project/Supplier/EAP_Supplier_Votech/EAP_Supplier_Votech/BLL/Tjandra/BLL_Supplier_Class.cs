@@ -16,15 +16,22 @@ namespace EAP_Supplier_Votech.BLL.Tjandra
             return obj.insertPurchaseOrder(name, email, contact, address, date);
         }
 
+        public int createOrderItems(string ProdName, string ProdDesc, string ProdPrice)
+        {
+            DAL_OrderItem obj = new DAL_OrderItem();
+            return obj.createOrderItems(ProdName, ProdDesc, ProdPrice);
+        }
 
+        public DataSet GetAll_Inventory()
+        {
+            DAL_Inventory dal;
+            DataSet dataSetRegList;
 
+            dal = new DAL_Inventory();
+            dataSetRegList = dal.GetAll_Inventory();
 
-
-
-
-
-
-
+            return dataSetRegList;
+        }
 
     }
 }

@@ -38,8 +38,8 @@ namespace EAP_Company_FixTech.Web.Admin
             }
             if (e.CommandName == "Pay")
             {
-               
-                Response.Redirect("PayingToSupplier.aspx");
+                //int InvoiceNum = Convert.ToInt32(gvr.Cells[1].Text);
+                Response.Redirect("PayingToSupplier.aspx?InvoiceNum=" + gvr.Cells[1].Text);
             }
         }
     }

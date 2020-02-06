@@ -51,7 +51,6 @@ C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supp
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.PerfCounterCollector.dll
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.Web.dll
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.AI.WindowsServer.dll
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.ApplicationInsights.dll
 C:\Users\Tjandra Putra\Desktop\EAP Project\Supplier\EAP_Supplier_Votech\EAP_Supplier_Votech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
